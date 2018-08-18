@@ -1,6 +1,8 @@
 # HelloWorld
-Travis CI:
+
 [![Build Status](https://travis-ci.org/chronicqazxc/HelloWorld.svg?branch=master)](https://travis-ci.org/chronicqazxc/HelloWorld)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5193afbd8a70405ca24b302b0a57c2d5)](https://www.codacy.com/project/chronicqazxc/HelloWorld/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=chronicqazxc/HelloWorld&amp;utm_campaign=Badge_Grade_Dashboard)
+[![Reviewed by Hound](https://img.shields.io/badge/Reviewed_by-Hound-8E64B0.svg)](https://houndci.com)
 
 ## Purpose
 This project was created to demostrate iOS CICD flow.
