@@ -1,3 +1,9 @@
+# Add a CHANGELOG entry for app changes
+if !git.modified_files.include?("CHANGELOG.md") && has_app_changes
+    fail("Please include a CHANGELOG entry.")
+    message "Note, we hard-wrap at 80 chars and use 2 spaces after the last line."
+end
+
 # Sometimes it's a README fix, or something like that - which isn't relevant for
 # including in a project's CHANGELOG for example
 declared_trivial = github.pr_title.include? "#trivial"
