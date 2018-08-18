@@ -1,3 +1,7 @@
+os:
+- osx_image: xcode10
+language:
+- swift
 script:
 - bundle exec pod update
 - bundle exec fastlane test
