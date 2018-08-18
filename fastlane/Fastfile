@@ -19,11 +19,7 @@ platform :ios do
   desc "Description of what the lane does"
   lane :test do
       cocoapods(repo_update: true)
-      danger(
-             dangerfile: "Dangerfile",
-             github_api_token: ENV["GITHUB_API_TOKEN"],
-             verbose: true
-             )
+      danger
       swiftlint(
                 mode: :lint,      # SwiftLint mode: :lint (default) or :autocorrect
                 executable: "Pods/SwiftLint/swiftlint",
