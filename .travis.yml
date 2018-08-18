@@ -1,3 +1,2 @@
 script:
-- [ -f Gemfile.lock ] && bundle update || bundle install --path vendor/bundle
 - bundle exec fastlane test
