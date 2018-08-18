@@ -5,5 +5,5 @@ osx_image:
 language:
 - swift
 script:
-- bundle exec pod update
+- [ -f Gemfile.lock ] && bundle update || bundle install --path vendor/bundle
 - bundle exec fastlane test
