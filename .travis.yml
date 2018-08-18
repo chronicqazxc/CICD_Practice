@@ -1,2 +1,3 @@
 script:
+- bundle exec pod update
 - bundle exec fastlane test
