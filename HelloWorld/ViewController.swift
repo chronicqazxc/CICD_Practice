@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("trigger Travis")
+        print("long string long string long string long string long string long string long string long string long string long string long string long string ")
     }
 
     override func didReceiveMemoryWarning() {
