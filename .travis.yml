@@ -11,4 +11,4 @@ osx_image:
 language:
 - swift
 script:
-- bundle exec danger
+- bundle exec fastlane test
