@@ -11,6 +11,8 @@ build/
 DerivedData/
 vendor/
 
+swiftlint-results.json
+
 ## Various settings
 *.pbxuser
 !default.pbxuser
