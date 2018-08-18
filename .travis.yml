@@ -1,5 +1,7 @@
 os:
-- osx_image: xcode10
+- osx
+osx_image:
+- xcode10
 language:
 - swift
 script:
