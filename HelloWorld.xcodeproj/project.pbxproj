@@ -36,6 +36,7 @@
 		A6488F362127F7590013EDF7 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 		A6488F372128001E0013EDF7 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		A6488F38212802660013EDF7 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A6488F3921280D560013EDF7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A6DA440F2121AB970061EE06 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6DA44122121AB970061EE06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6DA44142121AB970061EE06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +88,7 @@
 		A6DA44062121AB970061EE06 = {
 			isa = PBXGroup;
 			children = (
+				A6488F3921280D560013EDF7 /* README.md */,
 				A6488F38212802660013EDF7 /* .gitignore */,
 				A6488F372128001E0013EDF7 /* .travis.yml */,
 				A6488F362127F7590013EDF7 /* .swiftlint.yml */,
