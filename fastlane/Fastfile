@@ -27,7 +27,7 @@ platform :ios do
                 )
       danger(
              danger_id: "unit-tests",
-             dangerfile: "Dangerfile.swift",
+             dangerfile: "Dangerfile",
              github_api_token: ENV["GITHUB_API_TOKEN"],
              verbose: true
              )

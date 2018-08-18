@@ -2,8 +2,6 @@ bundler_args: "--path vendor/bundle"
 before_install:
 - git fetch --depth=1000000
 - gem install bundler
-- npm install -g danger
-- brew install danger/tap/danger-swift
 after_install:
 - bundle update
 os:

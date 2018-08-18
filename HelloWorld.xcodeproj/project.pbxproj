@@ -37,7 +37,8 @@
 		A6488F372128001E0013EDF7 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		A6488F38212802660013EDF7 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		A6488F3921280D560013EDF7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		A6488F3A212823D20013EDF7 /* Dangerfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dangerfile.swift; sourceTree = "<group>"; };
+		A6488F3B212831360013EDF7 /* Dangerfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = Dangerfile; sourceTree = "<group>"; };
+		A6488F3D212834DB0013EDF7 /* .env */ = {isa = PBXFileReference; lastKnownFileType = text; path = .env; sourceTree = "<group>"; };
 		A6DA440F2121AB970061EE06 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6DA44122121AB970061EE06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6DA44142121AB970061EE06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -93,7 +94,7 @@
 				A6488F38212802660013EDF7 /* .gitignore */,
 				A6488F372128001E0013EDF7 /* .travis.yml */,
 				A6488F362127F7590013EDF7 /* .swiftlint.yml */,
-				A6488F3A212823D20013EDF7 /* Dangerfile.swift */,
+				A6488F3B212831360013EDF7 /* Dangerfile */,
 				A6DA44352121B0F20061EE06 /* fastlane */,
 				A6DA44322121AC440061EE06 /* Gemfile */,
 				A6DA44112121AB970061EE06 /* HelloWorld */,
@@ -140,6 +141,7 @@
 			children = (
 				A6DA44362121B0F20061EE06 /* Appfile */,
 				A6DA44372121B0F20061EE06 /* Fastfile */,
+				A6488F3D212834DB0013EDF7 /* .env */,
 			);
 			path = fastlane;
 			sourceTree = "<group>";
