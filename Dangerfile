@@ -1,3 +1,7 @@
+# Sometimes its a README fix, or something like that - which isn't relevant for
+# including in a CHANGELOG for example
+has_app_changes = !git.modified_files.grep(/lib/).empty?
+
 # Add a CHANGELOG entry for app changes
 if !git.modified_files.include?("CHANGELOG.md") && has_app_changes
     fail("Please include a CHANGELOG entry.")
