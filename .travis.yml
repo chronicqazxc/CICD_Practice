@@ -12,4 +12,3 @@ language:
 - swift
 script:
 - bundle exec fastlane test
-- bundle exec danger
