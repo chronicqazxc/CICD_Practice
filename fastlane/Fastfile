@@ -27,7 +27,6 @@ platform :ios do
                 )
       puts ENV['GITHUB_API_TOKEN']
       danger(
-             danger_id: "unit-tests",
              dangerfile: "Dangerfile",
              github_api_token: ENV["GITHUB_API_TOKEN"],
              verbose: true
