@@ -1,0 +1,4 @@
+install:
+- [ -f Gemfile.lock ] && bundle update || bundle install --path vendor/bundle
+script:
+- bundle exec fastlane test
