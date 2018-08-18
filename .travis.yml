@@ -1,3 +1,9 @@
+bundler_args: "--path vendor/bundle"
+before_install:
+- git fetch --depth=1000000
+- gem install bundler
+after_install:
+- bundle update
 os:
 - osx
 osx_image:
@@ -5,5 +11,4 @@ osx_image:
 language:
 - swift
 script:
-- "[ -f Gemfile.lock ] && bundle update || bundle install --path vendor/bundle"
 - bundle exec fastlane test
